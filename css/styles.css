@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: hsl(0, 0%, 96%);
+  font-family: Arial, Helvetica, sans-serif;
+}
+#title {
+  padding-top: 40px;
+  margin-bottom: 10px;
+  font-weight: lighter;
+}
+#description {
+  font-style: italic;
+  margin-bottom: 30px;
+}
+#survey-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+  margin: auto;
+}
+form,
+label {
+  background-color: hsl(0, 0%, 65%);
+}
+label,
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea,
+button {
+  margin: 20px 30px 0 30px;
+  width: 90%;
+}
+label {
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+input,
+select,
+button {
+  height: 50px;
+}
+.input-radio,
+.input-checkbox {
+  display: inline-block;
+  margin-right: 0.5rem;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+textarea {
+  display: block;
+  text-align: left;
+}
+.input-textarea {
+  min-height: 120px;
+  width: 90%;
+  padding: 0.625rem;
+  resize: vertical;
+}
+button {
+  border: none;
+}
+#submit {
+  margin-bottom: 60px;
+  text-align: center;
+  display: inline-block;
+  line-height: 50px;
+  background-color: hsl(120, 100%, 60%);
+}
